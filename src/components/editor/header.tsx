@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 
-import { type Page } from "~/lib/types";
+import { type Scratchpad } from "~/lib/types";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -42,7 +42,7 @@ export function EditorHeader({
   onDelete,
   onUpdateTitle,
 }: {
-  page: Page;
+  page: Scratchpad;
   onDelete: () => void;
   onUpdateTitle: (title: string) => void;
 }) {

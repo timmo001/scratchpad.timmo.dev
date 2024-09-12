@@ -3,8 +3,9 @@ import "~/styles/globals.css";
 
 import { type Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
-import { dark } from "@clerk/themes";
 import { Inter as FontSans } from "next/font/google";
+import { dark } from "@clerk/themes";
+import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
 
 import { cn } from "~/lib/utils";
 import { Header } from "~/components/header";
@@ -19,19 +20,19 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Notes",
-  description: "A simple notes app",
-  keywords: ["notes", "app"],
+  title: "Scratchpad",
+  description: "A simple single-page notepad",
+  keywords: ["scratchpad", "notepad"],
   icons: [{ rel: "icon", url: "/icon" }],
-  metadataBase: new URL("https://notes.timmo.dev"),
+  metadataBase: new URL("https://scratchpad.timmo.dev"),
   openGraph: {
     images: [
       {
         url: "/api/og",
       },
     ],
-    siteName: "Notes",
-    url: "https://notes.timmo.dev",
+    siteName: "Scratchpad",
+    url: "https://scratchpad.timmo.dev",
   },
 };
 
@@ -66,7 +67,14 @@ export default function RootLayout({
                     minHeight: "calc(100vh - 64px)",
                   }}
                 >
-                  {children}
+                  <SignedOut>
+                    <section className="flex flex-col items-center justify-center gap-8">
+                      <div className="transform rounded-md bg-violet-800/80 px-4 py-2 text-white shadow-lg drop-shadow-2xl transition duration-300 hover:scale-105 hover:bg-violet-800">
+                        <SignInButton mode="modal">Please Sign In</SignInButton>
+                      </div>
+                    </section>
+                  </SignedOut>
+                  <SignedIn>{children}</SignedIn>
                 </main>
                 <Toaster />
               </HydrateClient>

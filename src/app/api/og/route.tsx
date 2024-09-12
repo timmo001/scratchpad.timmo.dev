@@ -26,7 +26,7 @@ export async function GET() {
           />
         </svg>
 
-        <div style={{ marginTop: 8 }}>Notes</div>
+        <div style={{ marginTop: 8 }}>Scratchpad</div>
       </div>
     ),
     {

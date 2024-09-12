@@ -19,9 +19,9 @@ export function Header() {
       case "/":
         return [];
       case "/notebook/new":
-        return [{ name: "Notes", href: "/" }, { name: "New Notebook" }];
+        return [{ name: "Scratchpad", href: "/" }, { name: "New Notebook" }];
       default:
-        return [{ name: "Notes", href: "/" }];
+        return [{ name: "Scratchpad", href: "/" }];
     }
   }, [pathname]);
 

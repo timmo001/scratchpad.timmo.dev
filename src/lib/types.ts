@@ -1,17 +1,10 @@
-export type Notebook = {
-  id: number;
-  title: string | null;
-  description: string | null;
-  userId: string | null;
-  createdAt: Date;
-  updatedAt: Date;
-};
+import { z } from "zod";
 
-export type Page = {
-  id: number;
-  title: string | null;
-  createdAt: Date;
-  updatedAt: Date;
-  content: string | null;
-  notebookId: number;
-};
+export const ScratchpadSchema = z.object({
+  userId: z.string(),
+  content: z.string().nullable(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
+});
+
+export type Scratchpad = z.infer<typeof ScratchpadSchema>;
