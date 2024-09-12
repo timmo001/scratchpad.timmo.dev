@@ -11,7 +11,6 @@ import { cn } from "~/lib/utils";
 import { Header } from "~/components/header";
 import { HydrateClient } from "~/trpc/server";
 import { ThemeProvider } from "~/components/theme-provider";
-import { Toaster } from "~/components/ui/toaster";
 import { TRPCReactProvider } from "~/trpc/react";
 
 const fontSans = FontSans({
@@ -76,7 +75,6 @@ export default function RootLayout({
                   </SignedOut>
                   <SignedIn>{children}</SignedIn>
                 </main>
-                <Toaster />
               </HydrateClient>
             </TRPCReactProvider>
           </ThemeProvider>
