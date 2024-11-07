@@ -2190,10 +2190,10 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-drizzle-kit@0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/drizzle-kit/-/drizzle-kit-0.27.2.tgz#e4ceb8c5bf55fe9e6f58bfb71116814f370fc1ca"
-  integrity sha512-F6cFZ1wxa9XzFyeeQsp/0/lIzUbDuQjS8/njpYBDWa+wdWmXuY+Z/X2hHFK/9PGHZkv3c9mER+mVWfKlp/B6Vw==
+drizzle-kit@0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/drizzle-kit/-/drizzle-kit-0.28.0.tgz#76e16d576090b40edee3e2f57c582329c53a2335"
+  integrity sha512-KqI+CS2Ga9GYIrXpxpCDUJJrH/AT/k4UY0Pb4oRgQEGkgN1EdCnqp664cXgwPWjDr5RBtTsjZipw8+8C//K63A==
   dependencies:
     "@drizzle-team/brocli" "^0.10.2"
     "@esbuild-kit/esm-loader" "^2.5.5"
