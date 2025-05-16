@@ -21,44 +21,44 @@
   dependencies:
     "@egjs/component" "^3.0.2"
 
-"@clerk/backend@^1.32.1":
-  version "1.32.1"
-  resolved "https://registry.yarnpkg.com/@clerk/backend/-/backend-1.32.1.tgz#7b65c101c3aa73e1f2f1b40cf41fcb8263dd314c"
-  integrity sha512-Y7Txq7L3JPilb4kreHpp+3z4HUta+A2LdcurayoUEQyIzBH93AXnWnuRX1EFgSaQ6THsUq5IwmhemETLitNdKg==
+"@clerk/backend@^1.32.2":
+  version "1.32.2"
+  resolved "https://registry.yarnpkg.com/@clerk/backend/-/backend-1.32.2.tgz#8e4224d8373b9e3fbe91561c719b6c0bcea3c367"
+  integrity sha512-upJ9/EnHTQbG8YcdYYdxjumZnmSADU4Zbeag1m37fk0h24MwRP3iwAwk/5MoL2tB4cKTHhSBUDTlGpejSQVCPw==
   dependencies:
-    "@clerk/shared" "^3.9.0"
-    "@clerk/types" "^4.58.1"
+    "@clerk/shared" "^3.9.1"
+    "@clerk/types" "^4.59.0"
     cookie "1.0.2"
     snakecase-keys "8.0.1"
     tslib "2.8.1"
 
-"@clerk/clerk-react@^5.31.3":
-  version "5.31.3"
-  resolved "https://registry.yarnpkg.com/@clerk/clerk-react/-/clerk-react-5.31.3.tgz#f78e3137ea1e3df1cc7f9b3cd45201ca3ed8351d"
-  integrity sha512-EzswkUMsWVrLbnE12+gD7W05jTPpfnHVhC7TjWHaZphLxhY+8Tt8xHfg5Rhj52/d4vV+BXE12o6u1lFo8mls7w==
+"@clerk/clerk-react@^5.31.4":
+  version "5.31.4"
+  resolved "https://registry.yarnpkg.com/@clerk/clerk-react/-/clerk-react-5.31.4.tgz#6823549ae5ce5c9b7a1eb3d923495b0271a3dee5"
+  integrity sha512-VtjOEzq/ncwHRn23xhmy4DRefrrSeUkKHiB/EighusYVkjmpzWMXYGD9Wdd79hwUhJesUsBiQdZhE5qkJ+mnJA==
   dependencies:
-    "@clerk/shared" "^3.9.0"
-    "@clerk/types" "^4.58.1"
+    "@clerk/shared" "^3.9.1"
+    "@clerk/types" "^4.59.0"
     tslib "2.8.1"
 
-"@clerk/nextjs@6.19.3":
-  version "6.19.3"
-  resolved "https://registry.yarnpkg.com/@clerk/nextjs/-/nextjs-6.19.3.tgz#4aa9f65f064e9d5f136aa9e47d919e3b37c904e5"
-  integrity sha512-bpwzbUajkFqGGmhRn95Pp/1NoDvqniZKSbVbXHHdzDqAB9QjLAjoHLgyehEdAn/2nkiIjqk2PKH3Kf3CiXsH4Q==
+"@clerk/nextjs@6.19.4":
+  version "6.19.4"
+  resolved "https://registry.yarnpkg.com/@clerk/nextjs/-/nextjs-6.19.4.tgz#3ec841fb0c876fe0cdd38f13dcb8705ca84e5dc8"
+  integrity sha512-UlGwjJNY2+xkCwGhBbLdUfwgV3te3+Q3StaeueVQ3/+QrGjfyuHvMftH9lDgmTUExQ/qtWESycrH1kKVFNXsHg==
   dependencies:
-    "@clerk/backend" "^1.32.1"
-    "@clerk/clerk-react" "^5.31.3"
-    "@clerk/shared" "^3.9.0"
-    "@clerk/types" "^4.58.1"
+    "@clerk/backend" "^1.32.2"
+    "@clerk/clerk-react" "^5.31.4"
+    "@clerk/shared" "^3.9.1"
+    "@clerk/types" "^4.59.0"
     server-only "0.0.1"
     tslib "2.8.1"
 
-"@clerk/shared@^3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@clerk/shared/-/shared-3.9.0.tgz#73e7324686fa06a7d2587350a88c5cb86c3fdc3c"
-  integrity sha512-M+2IwE8DUof7RAjo0iCNlr4pRuXo5g8rDvk7Q1L9xVFSh7N9aA87BX1ctmUbus/BKrCSDLRiYQ6V0uGATg9iNQ==
+"@clerk/shared@^3.9.1":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@clerk/shared/-/shared-3.9.1.tgz#b649f940832c971afc7590d49f9a398fd74f8167"
+  integrity sha512-Gw7yPaas3lv+pkkbBwuqVVtWVH1nZl1hF8kVvdEhPALOkf6ww6azL6qcHaiFUHCW+iult3flJjplduFrfWF50g==
   dependencies:
-    "@clerk/types" "^4.58.1"
+    "@clerk/types" "^4.59.0"
     dequal "2.0.3"
     glob-to-regexp "0.4.1"
     js-cookie "3.0.5"
@@ -73,7 +73,7 @@
     "@clerk/types" "^4.59.0"
     tslib "2.8.1"
 
-"@clerk/types@^4.58.1", "@clerk/types@^4.59.0":
+"@clerk/types@^4.59.0":
   version "4.59.0"
   resolved "https://registry.yarnpkg.com/@clerk/types/-/types-4.59.0.tgz#3f55b121ad32de3c05c2b6a69c943ea5fb9f22e9"
   integrity sha512-VZ61lDWoz9cWTlSpO1KMGq7utl96ZuSBIOpM6togxYTp+TG0kD6QEJVinMaJLREtx8jRvXpMG7ZzBLE3zy0GSA==
