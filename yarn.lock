@@ -42,10 +42,10 @@
     "@clerk/types" "^4.70.1"
     tslib "2.8.1"
 
-"@clerk/nextjs@6.27.0":
-  version "6.27.0"
-  resolved "https://registry.yarnpkg.com/@clerk/nextjs/-/nextjs-6.27.0.tgz#56fd919dc38463db5900bfc823332d901f0bbb59"
-  integrity sha512-1QProUoXvaXrtiz5X/+oNhKLD6hF4rw53Kt39AUxyKOQcQMej/bWbg/Oe6sngJ7V+kwjN5d62CaUvcL7scolIw==
+"@clerk/nextjs@6.27.1":
+  version "6.27.1"
+  resolved "https://registry.yarnpkg.com/@clerk/nextjs/-/nextjs-6.27.1.tgz#865eb06670650dd4b014f2b25a92be0d79376976"
+  integrity sha512-33DP0oyLKA89GRfTRoDKJpYCVR4KIX7LT2QcsSXb183SNqc16oC8ibH0PQuRO/rsGIfWYeXEwSPy1Brv6ZFZ2g==
   dependencies:
     "@clerk/backend" "^2.6.0"
     "@clerk/clerk-react" "^5.37.0"
