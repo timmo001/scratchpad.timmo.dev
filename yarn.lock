@@ -1441,10 +1441,10 @@
   resolved "https://registry.npmjs.org/@tiptap/suggestion/-/suggestion-2.6.6.tgz"
   integrity sha512-jogG0QgGit9UtTznVnhQfNImZfQM89NR0is20yRQzC0HmD8B8f3jmGrotG63Why2oKbeoe3CpM5/5eDE/paqCA==
 
-"@trpc/client@11.0.0-rc.446":
-  version "11.0.0-rc.446"
-  resolved "https://registry.npmjs.org/@trpc/client/-/client-11.0.0-rc.446.tgz"
-  integrity sha512-s/bKw9xTRdm0Ax4+GfkMLreP+WleeUVvY2tFmWmJq2fKcAmOGdT3sXGsStqZZZMxbKYQw5qYj55PmpmrdPiXlA==
+"@trpc/client@11.6.0":
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-11.6.0.tgz#e3015a905870c94045a391e6c02ce956ed8e8030"
+  integrity sha512-DyWbYk2hd50BaVrXWVkaUnaSwgAF5g/lfBkXtkF1Aqlk6BtSzGUo3owPkgqQO2I5LwWy1+ra9TsSfBBvIZpTwg==
 
 "@trpc/react-query@11.0.0-rc.446":
   version "11.0.0-rc.446"
