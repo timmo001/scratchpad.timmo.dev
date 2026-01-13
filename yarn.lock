@@ -1711,10 +1711,10 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-18.15.3.tgz"
   integrity sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==
 
-"@types/node@25.0.1":
-  version "25.0.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.0.1.tgz#9c41c277a1b16491174497cd075f8de7c27a1ac4"
-  integrity sha512-czWPzKIAXucn9PtsttxmumiQ9N0ok9FrBwgRWrwmVLlp86BrMExzvXRLFYRJ+Ex3g6yqj+KuaxfX1JTgV2lpfg==
+"@types/node@25.0.8":
+  version "25.0.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.0.8.tgz#e54e00f94fe1db2497b3e42d292b8376a2678c8d"
+  integrity sha512-powIePYMmC3ibL0UJ2i2s0WIbq6cg6UyVFQxSCpaPxxzAaziRfimGivjdF943sSGV6RADVbk0Nvlm5P/FB44Zg==
   dependencies:
     undici-types "~7.16.0"
 
